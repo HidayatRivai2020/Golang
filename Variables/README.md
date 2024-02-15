@@ -6,6 +6,15 @@
 - All variables are initialized and have default value
 - `_` is the blank identifier and mutes the compile-time error returned by unused variables
 
+## Naming Convention
+- Important for code readability and maintainability
+- Start with a letter or underscore `_`
+- Case Sensitive
+- Keyword can not be used as a names
+- Should use camelCase
+- Use fewer letters in smaller scopes and the complete word in larger scopes
+- Should use UPPERCASE for the acronym
+
 ## Type
 
 ### Go Zero Values

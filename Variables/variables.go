@@ -18,7 +18,7 @@ func main() {
 
 	name = "New Name"
 	fmt.Println(name)
-	var alt_name = name
-	fmt.Println(alt_name)
+	var altName = name
+	fmt.Println(altName)
 
 }
