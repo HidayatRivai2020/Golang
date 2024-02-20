@@ -47,4 +47,25 @@
 - Comment
 - Standard Library
     - fmt
+        - Command
+- Constant
+    - Declaration
+        - Single Constant
+        - Multiple Constant
+    - Iota
+- Data Types
+    - Predeclared Types
+        - Numeric
+        - Bool
+        - String 
+    - Composite Types
+        - Array
+        - Slice
+        - Map
+        - Struct
+        - Pointer
+        - Function
+        - Type
+        - Channel
+
 
