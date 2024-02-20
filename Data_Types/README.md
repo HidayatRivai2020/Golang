@@ -1,8 +1,7 @@
 # Data Types
 - determines a set of value together with operations and method specific to thosse values
-- data types :
-    - predeclared types : introduced types with type declarations
-    - composites types : element types
+- `predeclared types` : introduced types with type declarations
+- `composites types` : element types
 
 ## Predeclared Types (Built in Types)
 - numeric types
@@ -80,3 +79,21 @@
 
 ### Channel
 - provides a mechanism for concurrently execution functions to communicate by sending and receiving a specified element type
+
+## Converting Types
+- changes the type of an expression to the type specified by the conversion
+
+### Numeric
+- converting between numeric data types
+- `<new_data_type>(<variable>)`
+
+### Numbers into Strings
+- converting numbers into string will return the character that has that int as ASCII code
+- converting into ASCII character only works for uint
+- the format to convert numbers into string : `string(<number>)`
+- use `Sprintf` to convert numbers value into string value
+- the format to convert numbers value into string : `Sprintf(<value>)`
+
+### Convert String
+- use `strconv` package to convert string into another type
+- the format : `strconv.<ParseType>(<value>, size)`

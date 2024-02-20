@@ -67,5 +67,16 @@
         - Function
         - Type
         - Channel
-
+    - Converting Types
+        - Numeric
+        - Numbers and Strings
+- Operator
+    - Operator Category
+        - Arithmetic
+        - Bitwise
+        - Assignment
+        - Increment & Decrement
+        - Comparison
+        - Logical
+    Overflow
 
