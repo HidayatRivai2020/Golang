@@ -70,6 +70,8 @@
     - Converting Types
         - Numeric
         - Numbers and Strings
+    - Defined Types
+    - Aliases
 - Operator
     - Operator Category
         - Arithmetic

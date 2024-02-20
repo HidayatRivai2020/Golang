@@ -2,6 +2,8 @@
 - determines a set of value together with operations and method specific to thosse values
 - `predeclared types` : introduced types with type declarations
 - `composites types` : element types
+- `defined types` : define new data types
+- `aliases` : give new name to data types
 
 ## Predeclared Types (Built in Types)
 - numeric types
@@ -97,3 +99,17 @@
 ### Convert String
 - use `strconv` package to convert string into another type
 - the format : `strconv.<ParseType>(<value>, size)`
+
+## Defined Types
+- Methods can be attached into newly defined types
+- Type Safety : one type must be converted into another to perform operations
+- readibility : can represents specific new type outside the built in type
+- format `type <name> <data_type>
+
+## Aliases
+- Same type with a new name
+- can be used together in operations without type conversions
+- alias example :
+    - byte and uint8
+    - run and int32
+- format `type <T1> <T2>
