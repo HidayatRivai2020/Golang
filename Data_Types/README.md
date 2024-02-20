@@ -112,4 +112,4 @@
 - alias example :
     - byte and uint8
     - run and int32
-- format `type <T1> <T2>
+- format `type <T1> <T2>`
