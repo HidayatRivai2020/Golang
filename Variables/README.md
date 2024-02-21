@@ -43,3 +43,14 @@
     - declaring multiple variables at the same time
     - atleast 1 variable is a new variable
     - `<var1_name>, <var2_name> := <var1_value>, <var2_value>`
+
+## Scope
+- visibility
+- lifetime of a variable
+- interval of time during which it exists as the program executes
+- a name cannot be declaraed again in the same scope
+- scope category in go
+    - `File` Scope : only visible in the current file
+    - `Package` Scope : only visible to the current package
+    - `Block (local)` Scope : only visible to the current block below the declaration
+- unused variable will error in `block scope`

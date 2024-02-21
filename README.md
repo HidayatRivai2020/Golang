@@ -45,9 +45,6 @@
         - Single Variable
         - Multiple Variables
 - Comment
-- Standard Library
-    - fmt
-        - Command
 - Constant
     - Declaration
         - Single Constant
@@ -82,7 +79,17 @@
         - Logical
     Overflow
 - Flow Control
+    - Decision Making
+        - If Else If Else
+        - Simple If Statement
+    - Loop
+        - For Loop
 
-## Package
+## Standard Library
 - fmt
+    - Method
+    - Text Format
+- os
+    - Properties
 - strconv
+    - Method
