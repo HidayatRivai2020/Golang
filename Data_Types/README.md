@@ -40,6 +40,23 @@
 ### String Types
 - Unicode chars written enclosed by double quotes
 - sequence of bytes (possibly empty)
+- UTF-8 by default
+- Use `backslash` to escape a character
+- Use `backsticks` to create a raw string
+- Use addition operator or `+` sign to concatenate strings
+- character in string can be accessed by index started from zer : `<var>[index]`
+- String elements are immutable and can not be changed
+- series of byte values (slices of bytes)
+
+### Byte and Rune
+- used to distinguish characters from `integer` value
+- Go does not have a `char` data type
+- enclosed in single quotes
+- represented using a unique code points
+- unique code points : numeric value that represents a rune literal
+- The character encoding scheme ASCII which is unicode subset, comprises 128 cide points
+- any slice can be encoded in a `string` value
+- `rune` : code point that reresent a single unicode character
 
 ## Composite Types
 - Array

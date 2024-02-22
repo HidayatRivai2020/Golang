@@ -85,6 +85,11 @@
     - `<start>` : slicing `slice` starting from this index, if `<start>` is missing the index will be `0`
     -  `<stop>` : slicing `slice` stopping before this index, if `<stop>` is missing the index will be `len(<var>)`
 
+### Slicing String
+- efficient because it reuses the same backing arr
+- returns bytes not runes
+- need to convert the slice first
+
 ## Slices Backing (Underlying) Array Concept
 - when creating a slice, behind the scenes Go creates a hidden array called `backing array`
 - the `backing array` stores the elements, not the slice
