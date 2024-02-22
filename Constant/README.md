@@ -18,7 +18,7 @@
 ### Multiple Constanst 
 - `constant <name1>, <name2>, <type> = <value1>, <value2>`
 - `constant <name1>, <name2> = <value1>, <value2>`
-- `constant (<name1> = <value> ...)`
+- `constant (<name1> = <value> <...>)`
 
 ## Iota
 - represents succesive untyped integer constant

@@ -82,8 +82,16 @@
     - Decision Making
         - If Else If Else
         - Simple If Statement
+        - Switch
     - Loop
-        - For Loop
+        - For 
+            - Continue
+            - Break
+            - Goto
+            - Label
+- Data Structure
+    - Array
+    - Slices
 
 ## Standard Library
 - fmt
