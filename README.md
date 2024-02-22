@@ -55,6 +55,7 @@
         - Numeric
         - Bool
         - String 
+        - Byte and Rune 
     - Composite Types
         - Array
         - Slice
@@ -91,7 +92,18 @@
             - Label
 - Data Structure
     - Array
+        - Declaring Arrays
+        - Slicing Arrays
     - Slices
+        - Declaring Slices
+        - Comparing Slices
+        - Appending to Slices
+        - Copying Slices
+        - Slicing Slices
+        - Slicing String
+    - Slices Backing (Underlying) Array Concept
+        - Slices Header
+    - Appending Concept
 
 ## Standard Library
 - fmt
@@ -100,4 +112,8 @@
 - os
     - Properties
 - strconv
+    - Method
+- string
+    - Method
+- UTF-8
     - Method
