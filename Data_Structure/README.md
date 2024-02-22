@@ -1,6 +1,7 @@
 # Data Structure
 - arrays
 - slices
+- maps
 
 ## Arrays
 - indexable type that stores a collection of elements of same type
@@ -108,8 +109,41 @@
     - `len()` : the length of the slice
     - `cap()` : the capacity of the slice
 
-## Appending Concept
+### Appending Slice Concept
 - new `backing array` is created if the `capacity` is full
 - the `capacity` is increased by 2 times to avoid creating a new `backing array` every time
 - accessing outside `length` will return an error
 - new `slice` can be created outside the `length` but `capacity`
+
+## Maps
+- collection type that stores `key:value` pairs
+- `add`, `get`, and `delete` operations take constat expected time
+- `keys` and the `values` are statically typed and must have same type
+- `keys` must be unique
+- any comparable type can be used as `key`
+- `float` is not recomended hsed as a `key` even if it possible
+- `maps` can not be compared to another `maps`
+- the structure is unordered
+
+### Maps format
+- Declaring : 
+    - `var <name> map[<key_type>]<value_type>`
+    - if the `key` doesn't exist or the `map` is not initialized, returns the `0` for the `<value type>`
+- Using make : `make(map[<key_type>]<value_type>)`
+- Accessing : 
+    - `<name>[<key_type>]` 
+    - return `<value>, <isFound>`
+- Changing Value : `<name>[<key_type>] = <new_value>`
+- Delete Element : `Delete(<name>, <key>)`
+
+### Comparing Maps
+- `maps` can not be compared to another `maps`
+- use `loop` and compare each element of the `map`
+- use `Sprintf` to get the value as a string then compare
+
+### Map Header
+- Go creates a `pointer` to a `map header` in memory when declaring a `map`
+- the `map` contains only the memory `address` of `map header`
+- `key value` stored in memory at the `address` referenced by the `map header`
+- when map copied into a new map, the internal data structure is not copied, just referenced
+- to clone a `map` into different `address`, create a new `map` and copy each element using `loop`
