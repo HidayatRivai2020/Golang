@@ -103,12 +103,20 @@
         - Slicing String
     - Slices Backing (Underlying) Array Concept
         - Slices Header
-    - Appending Concept
+        - Appending Slice Concept
+    - Maps
+        - Maps Format
+        - Comparing Maps
+        - Map Header
+File
+
 
 ## Standard Library
 - fmt
     - Method
     - Text Format
+- log
+    - Method
 - os
     - Properties
 - strconv
