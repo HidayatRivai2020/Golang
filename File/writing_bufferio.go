@@ -1,8 +1,3 @@
-/////////////////////////////////
-// Writing to Files using a Buffer in Memory
-// Go Playground: https://play.golang.org/p/7U3g_B33aui
-/////////////////////////////////
-
 package main
 
 import (

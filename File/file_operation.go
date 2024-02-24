@@ -1,8 +1,3 @@
-/////////////////////////////////
-// Creating, Opening, Closing, Renaming, Moving, and Removing files in Go
-// Go Playground: https://play.golang.org/p/Sz_LfNS9GKU
-/////////////////////////////////
-
 package main
 
 import (
