@@ -108,8 +108,60 @@
         - Maps Format
         - Comparing Maps
         - Map Header
-File
-
+- File
+    - Operations on File    
+        - File Info
+        - File Flag
+    - Writing Into File
+    - Reading From File
+        - Scanner Split Type
+    - Reading From Input
+- Structs
+    - Struct
+        - Creating Struct
+        - Struct Field Value
+    - Anonymous Struct
+    - Anonymous Field
+    - Embedded Struct
+- Functions
+    - Function
+        - Writing Function
+        - Calling Method
+    - Variadic function
+    - Defer function
+    - Anonymous Function
+    - Methods
+        - Receiver Function
+        - Pointer Function
+- Pointer
+    - Pointer Operation
+    - Pointer Function
+- Interface
+    - Interface Nil Type
+    - Interface Dynamic Type
+        - Polymorphism
+        - Type Assertion
+        - Type Switch
+    - Embedded Interface
+    - Empty Interface
+- Concurrency
+    - Goroutines
+    - WaitGroups
+    - Data Race
+        - Go Race Detector
+        - Mutexes
+        - Channel
+            - Channel Operation
+            - Select Statement
+- Packages
+    - Package
+        - Gopath and Code Organization
+        - Creating a Package
+        - Exporting Names
+        - Init Function
+    - Modules
+        - Using Modules
+        - Creating Modules on Github
 
 ## Standard Library
 - fmt
