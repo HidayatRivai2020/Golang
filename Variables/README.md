@@ -6,7 +6,7 @@
 - All variables are initialized and have default value
 - `_` is the blank identifier and mutes the compile-time error returned by unused variables
 
-## Naming Convention
+## [Naming Convention](https://github.com/HidayatRivai2020/Golang/blob/main/Variables/naming_convention.go)
 - Important for code readability and maintainability
 - Start with a letter or underscore `_`
 - Case Sensitive
@@ -17,7 +17,7 @@
 
 ## Type
 
-### Go Zero Values
+### [Go Zero Values](https://github.com/HidayatRivai2020/Golang/blob/main/Variables/zero_values.go)
 - numeric : 0
 - bool : false
 - string : ""
@@ -25,7 +25,7 @@
 
 ## Declaration
 
-### Single Variable
+### [Single Variable](https://github.com/HidayatRivai2020/Golang/blob/main/Variables/variables.go)
 - using `var` keyword
     - `var <var_name>`
     - `var <var_name> = <var_value>`
@@ -34,7 +34,7 @@
     - can be used only to local variable
     - `<var_name> := <var_value>`
 
-### Multiple variables
+### [Multiple variables](https://github.com/HidayatRivai2020/Golang/blob/main/Variables/multiple_variables.go)
 - using `var()` command
     - `var(<vars_name> <vars_type)`
 - using `var` keyword
@@ -44,7 +44,7 @@
     - atleast 1 variable is a new variable
     - `<var1_name>, <var2_name> := <var1_value>, <var2_value>`
 
-## Scope
+## [Scope](https://github.com/HidayatRivai2020/Golang/blob/main/Variables/scopes.go)
 - visibility
 - lifetime of a variable
 - interval of time during which it exists as the program executes
