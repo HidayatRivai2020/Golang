@@ -5,7 +5,7 @@
 - `defined types` : define new data types
 - `aliases` : give new name to data types
 
-## Predeclared Types (Built in Types)
+## [Predeclared Types (Built in Types)](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/predeclared_types.go)
 - numeric types
 - Bool Type
 - String Type
@@ -58,7 +58,7 @@
 - any slice can be encoded in a `string` value
 - `rune` : code point that reresent a single unicode character
 
-## Composite Types
+## [Composite Types](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/composites_types.go)
 - Array
 - Slice
 - Map
@@ -99,31 +99,31 @@
 ### Channel
 - provides a mechanism for concurrently execution functions to communicate by sending and receiving a specified element type
 
-## Converting Types
+## [Converting Types](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/converting_types.go)
 - changes the type of an expression to the type specified by the conversion
 
-### Numeric
+### [Numeric](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/converting_number.go)
 - converting between numeric data types
 - `<new_data_type>(<variable>)`
 
-### Numbers into Strings
+### [Numbers into Strings](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/converting_string.go)
 - converting numbers into string will return the character that has that int as ASCII code
 - converting into ASCII character only works for uint
 - the format to convert numbers into string : `string(<number>)`
 - use `Sprintf` to convert numbers value into string value
 - the format to convert numbers value into string : `Sprintf(<value>)`
 
-### Convert String
+### [Convert String]((https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/strconv_package.go))
 - use `strconv` package to convert string into another type
 - the format : `strconv.<ParseType>(<value>, size)`
 
-## Defined Types
+## [Defined Types](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/defined_type.go)
 - Methods can be attached into newly defined types
 - Type Safety : one type must be converted into another to perform operations
-- readibility : can represents specific new type outside the built in type
+- readability : can represent specific new type outside the built-in type
 - format `type <name> <data_type>
 
-## Aliases
+## [Aliases]((https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/aliases.go))
 - Same type with a new name
 - can be used together in operations without type conversions
 - alias example :

@@ -59,7 +59,7 @@
         - Single Constant
         - Multiple Constant
     - Iota
-- Data Types
+- [Data Types](https://github.com/HidayatRivai2020/Golang/tree/main/Data_Types)
     - Predeclared Types
         - Numeric
         - Bool
