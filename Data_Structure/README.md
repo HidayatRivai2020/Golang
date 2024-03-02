@@ -8,7 +8,7 @@
 - has fixed length
 - every element must be of same type
 - elements of the array stored in contiguous memory locations
-- length and the elements type determines the type of an array
+- length and the elements type determines the type of array
 - the length belongs to array type and determined at compile time
 
 ### Declaring Arrays
@@ -39,7 +39,7 @@
 ## Slices
 - similar to array but has a dynamic length
 - the length of a slice is not part of its type and belongs to runtime
-- an unitialize slices is equal to nil
+- an un-initialize slices is equal to nil
 
 ### Declaring Slices
 - use keyword `make` to initialize slices with specific length : `make([]<type>, length)`
@@ -59,11 +59,11 @@
     - `value` : the value of each element
 
 ### Comparing Slices
-- slices can only compared to nil
+- slices can only be compared to nil
 - to compare the slice, compare the length first then use loop and compare for each element
 
 ### Appending to slices
-- `append` : method to to append a new value to a slice
+- `append` : method to append a new value to a slice
     - `append(<var>, <values>, <...>)`
         - `var` : slice variable
         - `<value>` : new value that will be added into a slice
@@ -117,11 +117,11 @@
 
 ## Maps
 - collection type that stores `key:value` pairs
-- `add`, `get`, and `delete` operations take constat expected time
+- `add`, `get`, and `delete` operations take constant expected time
 - `keys` and the `values` are statically typed and must have same type
 - `keys` must be unique
 - any comparable type can be used as `key`
-- `float` is not recomended hsed as a `key` even if it possible
+- `float` is not recommended used as a `key` even if it possible
 - `maps` can not be compared to another `maps`
 - the structure is unordered
 

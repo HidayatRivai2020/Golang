@@ -66,14 +66,6 @@
         - String 
         - Byte and Rune 
     - Composite Types
-        - Array
-        - Slice
-        - Map
-        - Struct
-        - Pointer
-        - Function
-        - Type
-        - Channel
     - Converting Types
         - Numeric
         - Numbers and Strings
@@ -89,8 +81,8 @@
         - Logical
     Overflow
 - Flow Control
-    - Decision Making
-        - If Else If Else
+    - Decision-Making
+        - If - Else If - Else
         - Simple If Statement
         - Switch
     - Loop
@@ -170,7 +162,7 @@
         - Init Function
     - Modules
         - Using Modules
-        - Creating Modules on Github
+        - Creating Modules on GitHub
 
 ## Standard Library
 - fmt

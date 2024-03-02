@@ -10,7 +10,7 @@
 - Bool Type
 - String Type
 
-### Numeric types
+### [Numeric types](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/predeclared_types.go)
 - number data types
 - can use `_` to write large numbers for a better readability
 - `_` will be ignored
@@ -34,10 +34,10 @@
     - complex64 : complex numbers with float32 real and imaginary parts
     - complex128 : complex numbers with float64 real and imaginary parts
 
-### Bool Types
+### [Bool Types](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/predeclared_types.go)
 - predefined constant true and false
 
-### String Types
+### [String Types]((https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/string.go))
 - Unicode chars written enclosed by double quotes
 - sequence of bytes (possibly empty)
 - UTF-8 by default
@@ -48,7 +48,7 @@
 - String elements are immutable and can not be changed
 - series of byte values (slices of bytes)
 
-### Byte and Rune
+### [Byte and Rune](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/byte_rune.go)
 - used to distinguish characters from `integer` value
 - Go does not have a `char` data type
 - enclosed in single quotes
@@ -68,39 +68,8 @@
 - Type
 - Channel
 
-### Array
-- numbered sequence of elements of single type
-- has fixed length
-
-### Slice
-- numbered sequence of elements of single type (element types)
-- has dynamic length
-
-### Map
-- unordered group of elements of one type
-- indexed by a set of unique keys of another type
-- similar to dictionary in Python
-
-### Struct
-- sequence of named element called `fields`
-- each of element has a name and type
-- can be compared to `class` concept in `OOP`
-- `type <name> struct { <var_name> <var type> ... }`
-
-### Pointer
-- variable that stores the memory addres of another variable
-- default value : nil
-
-### Function
-- a type of a declared function
-
-### Interface
-
-### Channel
-- provides a mechanism for concurrently execution functions to communicate by sending and receiving a specified element type
-
 ## [Converting Types](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/converting_types.go)
-- changes the type of an expression to the type specified by the conversion
+- changes the type of expression to the type specified by the conversion
 
 ### [Numeric](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Types/converting_number.go)
 - converting between numeric data types
