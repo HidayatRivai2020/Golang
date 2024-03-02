@@ -53,7 +53,7 @@
         - Single Variable
         - Multiple Variables
     - Scope
-- Comment
+- [Comment](https://github.com/HidayatRivai2020/Golang/tree/main/Comment)
 - Constant
     - Declaration
         - Single Constant
