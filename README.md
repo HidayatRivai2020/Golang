@@ -71,7 +71,7 @@
         - Numbers and Strings
     - Defined Types
     - Aliases
-- Operator
+- [Operator](https://github.com/HidayatRivai2020/Golang/tree/main/Operator)
     - Operator Category
         - Arithmetic
         - Bitwise
@@ -80,7 +80,7 @@
         - Comparison
         - Logical
     Overflow
-- Flow Control
+- [Flow Control](https://github.com/HidayatRivai2020/Golang/tree/main/Flow_Control)
     - Decision-Making
         - If - Else If - Else
         - Simple If Statement

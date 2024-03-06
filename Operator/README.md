@@ -11,7 +11,7 @@
 
 ## Operator Category
 
-### Arithmetic
+### [Arithmetic](https://github.com/HidayatRivai2020/Golang/blob/main/Operator/arithmetic.go)
 - applied to a numeric values
 - used to perform common mathematical operation
 - operation can not be performed into mismatched operands, so need to convert it first
@@ -22,7 +22,7 @@
     `\` : division
     `%` : modulus (only working to integer numeric values)
 
-### Bitwise
+### [Bitwise](https://github.com/HidayatRivai2020/Golang/blob/main/Operator/arithmetic.go)
 - operate on unsigned integers
     - `&` : and
     - `|` : or
@@ -31,7 +31,7 @@
     - `<<` : shift left
     - `>>` : shift right
 
-### Assignment
+### [Assignment](https://github.com/HidayatRivai2020/Golang/blob/main/Operator/assignment.go)
 - assign values to variables
 - category
     - `=` : simple assigment
@@ -41,11 +41,11 @@
     - `/=` : division assigment
     - `%=` : modulus assigment
 
-### Increment & Decrement
+### [Increment & Decrement](https://github.com/HidayatRivai2020/Golang/blob/main/Operator/incdec.go)
 - `++` : `increment`, add value to the operand by the untyped constant 1
 - `--` : `decrement`, substract value to the operand by the untyped constant 1
 
-### Comparison
+### [Comparison](https://github.com/HidayatRivai2020/Golang/blob/main/Operator/comparison.go)
 - compare values between two operands
 - yield a boolean value
 - category :
@@ -56,7 +56,7 @@
     - `>` : `greater`
     - `>=` : `greater or equals`
 
-### Logical
+### [Logical](https://github.com/HidayatRivai2020/Golang/blob/main/Operator/logical.go)
 - apply to boolean values
 - yield a result of the same type as the operands
 - category : 
@@ -66,7 +66,7 @@
 
 ## Overflow
 - the result of an arithmetic operation has more breaks than can be represented in the result type
-- the hight order breaks that do not fit are silently discarded for efficiency
+- the height order breaks that do not fit are silently discarded for efficiency
 - Go does not check for overflow, the result will go to the cycle between minimum value or maximum value
 - Go check for overflow only if the expression that generates the error is evaluated at compile time
 

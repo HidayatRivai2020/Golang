@@ -7,7 +7,7 @@
 - `simple if`
 - `switch`
 
-### If Else If Else
+### [If Else If Else](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/if_else_if_else.go)
 - `if` 
     - mandatory
     - the first condition that will be checked
@@ -32,7 +32,7 @@ if some_condition_is_true {
 }
 ```
 
-### Simple If Statement
+### [Simple If Statement](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/simple_if.go)
 - a statement that is allowed in another statement like an if or a switch
 - the variable declared are available only in the branches of that statement
 - `if` 
@@ -58,7 +58,7 @@ if statement, condition_is_true {
 }
 ```
 
-### Switch
+### [Switch](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/switch.go)
 - similar to `if else if else`
 - Go converts `switch` statement into `if` statements behind the scenes automatically
 - the purpose is to make very long `if` more readable
@@ -85,7 +85,7 @@ switch <value> {
 
 ## Loop
 
-### For
+### [For](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/for_loop.go)
 - used to execute a block of code repeatedly
 - `for` : keyword to use for statement
 - `iniialize` : variable to initialize the first value
@@ -110,23 +110,23 @@ for <condition> {
 }
 ```
 
-#### Continue Statement
-- conitinue to next iteration of the loop
+#### [Continue Statement](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/break_continue.go)
+- continue to next iteration of the loop
 - reject all the remanining statement
 - used to skip the remaining code in the loop at some condition
 
 
-#### Break Statement
+#### [Break Statement](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/break_continue.go)
 - Stop the loop
 - reject all the remanining statement
 - used to terminate the inner most for or switch statement
 
-#### Goto
+#### [Goto](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/goto.go)
 - transfer control to the statement with the corresponding label within the same function
 - illegal to add more commands after `goto`
 - should be used only with caution because it makes the chord hard to read
 
-#### Label
+#### [Label](https://github.com/HidayatRivai2020/Golang/blob/main/Flow_Control/label.go)
 - used in `break`, `continue`, and `goto` statements
 - illegal to define label that is never used
 - labels are not block scoped
