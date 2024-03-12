@@ -109,7 +109,7 @@
         - Maps Format
         - Comparing Maps
         - Map Header
-- File
+- [File](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/File.go)
     - Operations on File    
         - File Info
         - File Flag

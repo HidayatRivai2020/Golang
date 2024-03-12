@@ -5,7 +5,7 @@
     - `io`
     - `bufio`
 
-## Operations on Files
+## [Operations on Files](https://github.com/HidayatRivai2020/Golang/blob/main/File/file_operation.go)
 - Common Parameter
     - `<file>` : file name
 - `Close()` : close the current file from `os.file`
@@ -44,6 +44,8 @@
 - `os.O_TRUNC` : Truncate file when opening
 
 ## Writing into File
+
+### [Using OS](https://github.com/HidayatRivai2020/Golang/blob/main/File/writing_os.go)
 - Writing file Using `os.File.Write`
     - Open the file first. store it in a variable
     - Close the file using `defer file.Close()`
@@ -55,7 +57,9 @@
     - use `os.Write(<file>, <byteSlices>, <perm>)` to write
         - `<byteSlices>` : the text that will be added into file
         - `<perm>` : the permission to write the file
-- Writing file Using `os.WriteFile`
+
+### [Using Buffered Writter](https://github.com/HidayatRivai2020/Golang/blob/main/File/writing_bufferio.go)
+- Writing file Using `bufferedwriter`
     - Open the file first. store it in a variable
     - Close the file using `defer file.Close()`
     - Create the `bufferedwriter` using `bufio.NewWriter(<file>)`
@@ -72,6 +76,8 @@
 ## Reading from file
 - Common Parameter :
     - `<file>` : file name
+
+### [Using io](https://github.com/HidayatRivai2020/Golang/blob/main/File/reading_file.go)
 - Reading file Using a `io.ReadFull` : reading with the limit of `byteSlices`
     - Open the file first. store it in a variable
     - Close the file using `defer <file>.Close()`
@@ -84,6 +90,8 @@
 - Reading file Using `io.ReadFile` : read the entire file into memory
     - Open the file first. store it in a variable
     - use `os.ReadFile(<file>)` to read the entire file
+
+### [Using Bufio](https://github.com/HidayatRivai2020/Golang/blob/main/File/reading_scanner.go)
 - Reading file Using `bufio.Scanner` : read data line by line from a file using delimiter
     - Open the file first. store it in a variable
     - Close the file using `defer file.Close()`
@@ -101,7 +109,7 @@
 - `bufio.scanRunes` : split by runes
 - `bufio.scanWords` : split by words
 
-## Reading from User Input
+## [Reading from User Input](https://github.com/HidayatRivai2020/Golang/blob/main/File/reading_console.go)
 - create new scanner using `bufio.NewScanner(os.Stdin)` and store it in variable
     - `os.Stdin` : Operation System Standard Input, reading from command line
 - use `<scanner>.Scan()` to read the Text from command line from theuntil the `new line`
