@@ -109,7 +109,7 @@
         - Maps Format
         - Comparing Maps
         - Map Header
-- [File](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/File.go)
+- [File](https://github.com/HidayatRivai2020/Golang/blob/main/File)
     - Operations on File    
         - File Info
         - File Flag
@@ -117,7 +117,7 @@
     - Reading From File
         - Scanner Split Type
     - Reading From Input
-- Structs
+- [Structs](https://github.com/HidayatRivai2020/Golang/blob/main/File)
     - Struct
         - Creating Struct
         - Struct Field Value

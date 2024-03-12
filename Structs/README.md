@@ -7,9 +7,9 @@
 - name or the type of the field cannot be changed at runtime
 - fields from a struct can not be added o removed at runtime
 
-## Struct
+## [Struct](https://github.com/HidayatRivai2020/Golang/blob/main/Structs/structs.go)
 
-### Creating Struct
+### [Creating Struct](https://github.com/HidayatRivai2020/Golang/blob/main/Structs/structs.go)
 - format : 
 ```
 type <name> struct {
@@ -26,14 +26,14 @@ type <name> struct {
 - creating a new variable from struct without order: `<new_variable> := <name>{<field3>: <var3>, <field1>: <var1>, <field2>: <var2>}`
 - creating a new variable from struct only with specific field: `<new_variable> := <name>{<field2>: <var2>}`
 
-### Struct Field Value
+### [Struct Field Value](https://github.com/HidayatRivai2020/Golang/blob/main/Structs/structs.go)
 - retrieving value : `<struct_variable>.<field_name>`
 - updating value : `<struct_variable>.<field_name> = <new_value>`
 - comparing struct : <struct_variable1> == <struct_variable2> 
 - Copying struct : <struct_variable1> := <struct_variable2>
     - each struct use different memory address 
 
-## Anonymous Struct
+## [Anonymous Struct](https://github.com/HidayatRivai2020/Golang/blob/main/Structs/anonymous_struct.go)
 - struct with no explicitly defined struct type alias.
 - format : 
 ```
@@ -53,7 +53,7 @@ type <name> struct {
 - `<type>` : data type of field
 - `value` : the value of field
 
-## Anonymous Field
+## [Anonymous Field](https://github.com/HidayatRivai2020/Golang/blob/main/Structs/anonymouse_struct.go)
 - field in struct where the data types becomes the fields name
 - format : 
 ```
@@ -66,7 +66,7 @@ type <name> struct {
 - `<name>` : structs name
 - `<type>` : data type of field
 
-## Embedded Struct
+## [Embedded Struct](https://github.com/HidayatRivai2020/Golang/blob/main/Structs/embedded_struct.go)
 - struct that acts like a field inside another struct
 - format : 
 ```
