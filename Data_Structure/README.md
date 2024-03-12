@@ -11,7 +11,7 @@
 - length and the elements type determines the type of array
 - the length belongs to array type and determined at compile time
 
-### Declaring Arrays
+### [Declaring Arrays](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/arrays.go)
 - single dimensional array : `[<length>]<type>{<value1>, <value2>, <...>}`
     - `length` : the length of array, the length is `...` if no specific value
     - `type` : the type of each element
@@ -28,7 +28,7 @@
     - `key` : the index of element, default is last index + 1
     - `value` : the value of each element
 
-### Slicing Array
+### [Slicing Array](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/array_key.go)
 - array can be sliced
 - keep the old `variable` and return a new `slice`
 - format : `<var>[<start>:<stop>]`
@@ -41,7 +41,7 @@
 - the length of a slice is not part of its type and belongs to runtime
 - an un-initialize slices is equal to nil
 
-### Declaring Slices
+### [Declaring Slices](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/slices.go)
 - use keyword `make` to initialize slices with specific length : `make([]<type>, length)`
     - `type` : the type of each element
     - `length` : the length of slices when initialize
@@ -58,11 +58,11 @@
     - `key` : the index of element, default is last index + 1
     - `value` : the value of each element
 
-### Comparing Slices
+### [Comparing Slices](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/slice_comparing.go)
 - slices can only be compared to nil
 - to compare the slice, compare the length first then use loop and compare for each element
 
-### Appending to slices
+### [Appending to slices](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/appending_concept.go)
 - `append` : method to append a new value to a slice
     - `append(<var>, <values>, <...>)`
         - `var` : slice variable
@@ -72,13 +72,13 @@
         - `var1` : slices variable
         - `var2` : another slices that will be added into a slice
 
-### Copying Slices
+### [Copying Slices](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/appending_concept.go)
 - `copy` : copy the value from another slice into a slice with the length of the `destination`
     - `copy(<dst>, <src>)`
         - `dst` : destination variable
         - `src` : source variable
 
-### Slicing Slices
+### [Slicing Slices](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/array_key.go)
 - slice can be sliced
 - keep the old `variable` and return a new `slice`
 - format : `<var>[<start>:<stop>]`
@@ -86,12 +86,12 @@
     - `<start>` : slicing `slice` starting from this index, if `<start>` is missing the index will be `0`
     -  `<stop>` : slicing `slice` stopping before this index, if `<stop>` is missing the index will be `len(<var>)`
 
-### Slicing String
+### [Slicing String](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/slicing_string.go)
 - efficient because it reuses the same backing arr
 - returns bytes not runes
 - need to convert the slice first
 
-## Slices Backing (Underlying) Array Concept
+## [Slices Backing (Underlying) Array Concept](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/backing_array.go)
 - when creating a slice, behind the scenes Go creates a hidden array called `backing array`
 - the `backing array` stores the elements, not the slice
 - Go implements a slice as a data structure called `slice header`
@@ -109,7 +109,7 @@
     - `len()` : the length of the slice
     - `cap()` : the capacity of the slice
 
-### Appending Slice Concept
+### [Appending Slice Concept](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/appending_concept.go)
 - new `backing array` is created if the `capacity` is full
 - the `capacity` is increased by 2 times to avoid creating a new `backing array` every time
 - accessing outside `length` will return an error
@@ -125,7 +125,7 @@
 - `maps` can not be compared to another `maps`
 - the structure is unordered
 
-### Maps format
+### [Maps format](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/maps.go)
 - Declaring : 
     - `var <name> map[<key_type>]<value_type>`
     - if the `key` doesn't exist or the `map` is not initialized, returns the `0` for the `<value type>`
@@ -136,12 +136,12 @@
 - Changing Value : `<name>[<key_type>] = <new_value>`
 - Delete Element : `Delete(<name>, <key>)`
 
-### Comparing Maps
+### [Comparing Maps](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/maps_compare.go)
 - `maps` can not be compared to another `maps`
 - use `loop` and compare each element of the `map`
 - use `Sprintf` to get the value as a string then compare
 
-### Map Header
+### [Map Header](https://github.com/HidayatRivai2020/Golang/blob/main/Data_Structure/maps_header.go)
 - Go creates a `pointer` to a `map header` in memory when declaring a `map`
 - the `map` contains only the memory `address` of `map header`
 - `key value` stored in memory at the `address` referenced by the `map header`
